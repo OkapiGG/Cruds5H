@@ -9,9 +9,9 @@ public class conexion {
     private static conexion instancia;
     private Connection conexion;
 
-    private final String URL = "jdbc:postgresql://localhost:5432/proyecto4h";
+    private final String URL = "jdbc:postgresql://localhost:5432/cruds5h";
     private final String USUARIO = "postgres";
-    private final String CONTRASENA = "ema24";    
+    private final String CONTRASENA = "jamed4";    
 
     private conexion() throws SQLException {
         try {
